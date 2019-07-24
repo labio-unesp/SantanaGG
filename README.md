@@ -4,5 +4,5 @@ Projeto de IC
 
 
 ##### EXEMPLO1
-- Codigo para extrair genes
+- Codigo para extrair genes (EXEMPLO)
 

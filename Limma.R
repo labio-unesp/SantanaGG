@@ -1,4 +1,4 @@
-Ajustar modelo linear para cada gene, dada uma série de matrizes. Usa-se usar para a regressão de mínimos quadrados lineares.
+--> Ajustar modelo linear para cada gene, dada uma série de matrizes. Usa-se usar para a regressão de mínimos quadrados lineares.
 
 
 design <- model.matrix(~ 0+factor(c(1,1,1,2,2,2,3,3,3))) #criar matriz do projeto

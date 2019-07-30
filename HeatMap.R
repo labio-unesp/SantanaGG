@@ -22,7 +22,7 @@ Heatmap(mat, name = "nome legenda de cores", border = TRUE) #para acrescentar bo
 
 #annotation
 Heatmap(mat, name = "nome legenda de cores", 
-        top_annotation = HeatmapAnnotation("nome da legenda de cores da anotacao" = 1:24, "nome do grafico" = anno_points(runif(24))), #cria uma anotação ligada ao Heatmap, nesse caso uma legenda de cores e um gráfico de pontos
-        right_annotation = rowAnnotation("nome da legenda de cores da anotacao" = 18:1, "nome do grafico" = anno_barplot(runif(18))) #cria uma anotação a direita do Heatmap ligada a linha, nesse caso a legenda de cores e um gráfico de barras
+        top_annotation = HeatmapAnnotation("nome grafico de cores da anotacao" = 1:24, "nome do grafico de pontos" = anno_points(runif(24))), #cria uma anotação ligada ao Heatmap, nesse caso um gráfico de cores e um de pontos
+        right_annotation = rowAnnotation("nome da grafico de cores da anotacao" = 18:1, "nome do grafico de barra" = anno_barplot(runif(18))) #cria uma anotação a direita do Heatmap ligada a linha, nesse caso um gráfico de cores e um de barras
        ) #obs : retirar as aspas dos annotation
 

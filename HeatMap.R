@@ -12,7 +12,7 @@ draw(hm) #desenhar a variável
 
 #colorindo heatmap
 col_fun = colorRamp2(c(-2, 0, 2), c("green", "white", "red")) #onde colorRamp define de -2 a 2 o intervalo de coloração e as cores
-Heatmap(mat, name = "noda legenda de cores", col = col_fun) #plotar Heatmap colorido
+Heatmap(mat, name = "nome da legenda de cores", col = col_fun) #plotar Heatmap colorido
 
 #titulo
 Heatmap(mat, name = "nome legenda de cores", col = col_fun, column_title = "Título da coluna", row_title = "Título da linha") #acrescenta titulo na linha e coluna

@@ -1,0 +1,1 @@
+"gsva"(expr, gset.idx.list, annotation, method=c("gsva", "ssgsea", "zscore", "plage"), rnaseq=FALSE, abs.ranking=FALSE, min.sz=1, max.sz=Inf, no.bootstraps=0, bootstrap.percent = .632, parallel.sz=0, parallel.type="SOCK", mx.diff=TRUE, tau=switch(method, gsva=1, ssgsea=0.25, NA), kernel=TRUE, ssgsea.norm=TRUE, verbose=TRUE)
